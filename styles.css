@@ -8,6 +8,10 @@
     --primary-color: #1a1a1a;
     --secondary-color: #e3e3e3;
     --accent-color: #FF5931;
+    --secondary-color-light: #A4A2A1;
+    --primary-color-light: #5B6663;
+    --red-color: #F03939;
+    --blue-color: #5383e8;
 }
 
 body{
@@ -40,4 +44,64 @@ li{
 header{
     display: flex;
     align-items: center;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+#hero{
+    background-color: var(--secondary-color);
+    height: 300px;
+    width: 100%;
+    position: relative;
+    clip-path: polygon(1% 0%, 99% 0%, 100% 5%, 100% 95%, 99% 100%, 1% 100%, 0% 95%, 0% 5%);
+}
+
+.h2-hr{
+    width: 70%;
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: var(--secondary-color-light);
+}
+
+.live-game{
+    width: 250px;
+    height: 130px;
+    /* background-color: var(--primary-color-light); */
+    background: rgb(70,84,240);
+    background: linear-gradient(27.5deg, rgba(70,84,240,1) 50%, rgba(240,57,57,1) 50%);
+    margin-right: 50px;
 }
