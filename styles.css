@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #1a1a1a;
+    --secondary-color: #e3e3e3;
+    --accent-color: #FF5931;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Quantico', sans-serif;
+    color: var(--secondary-color);
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+ul{
+    all: unset;
+}
+
+a{
+    all: unset;
+}
+
+li{
+    all: unset;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
